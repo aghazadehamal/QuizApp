@@ -1,0 +1,145 @@
+button {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightgray;
+}
+
+
+
+
+
+
+
+button.next {
+  background-color: #4CAF50; 
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.next:hover {
+  background-color: #45a049;
+}
+
+
+.card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.question {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+}
+
+.correct {
+  background-color: #28a745;
+}
+
+.incorrect {
+  background-color: #dc3545;
+}
+
+.btn:not(.correct):not(.incorrect) {
+  background-color: #007bff;
+}
+
+.btn:not(.correct):not(.incorrect):hover {
+  background-color: #0056b3;
+}
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.score {
+  font-size: 20px;
+  font-weight: bold;
+}
+.next-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.next-button:hover {
+  background-color: #0056b3;
+}
+
+.next-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+
+/* ... (önceki stiller) */
+
+.correct {
+  background-color: #28a745;
+}
+
+.incorrect {
+  background-color: #dc3545;
+}
+
+.btn.correct:not(.incorrect):hover {
+  background-color: #218838;
+}
+
+.btn.incorrect:hover {
+  background-color: #c82333;
+}
+
+.question-header {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.question-number {
+  font-weight: bold;
+  color: #007bff;
+}
