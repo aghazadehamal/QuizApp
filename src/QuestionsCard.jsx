@@ -31,7 +31,7 @@ function QuestionCard({ question, options, onAnswer, questionNumber, totalQuesti
   return (
     <div className="card">
      <h3 className="question-header">
-        <span className="question-number">Soru {questionNumber}/{totalQuestions}: </span>
+        <span className="question-number">Sual {questionNumber}/{totalQuestions}: </span>
         {question}
       </h3>
       <div className="options">
